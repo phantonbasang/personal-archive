@@ -4,27 +4,39 @@
 
 [I. Cách sử dụng](#i-cách-sử-dụng)
 - [1. Văn bản thuần](#1-văn-bản-thuần)
-  - [1. Tiêu đề - Heading](#1-tiêu-đề---heading)
-  - [2. Đoạn văn - Paragraph](#2-đoạn-văn---paragraph)
-  - [3. Chữ in nghiêng - Italic](#3-chữ-in-nghiêng---italic)
-  - [4. Chữ in đậm - Bold](#4-chữ-in-đậm---bold)
-  - [5. In đậm và in nghiêng](#5-in-đậm-và-in-nghiêng)
-  - [6. Chữ gạch giữa - Strikethrough](#6-chữ-gạch-giữa---strikethrough)
-  - [7. Code trong dòng - Inline Code](#7-code-trong-dòng---inline-code)
+  - [1.1. Tiêu đề - Heading](#1-tiêu-đề---heading)
+  - [1.2. Đoạn văn - Paragraph](#2-đoạn-văn---paragraph)
+  - [1.3. Chữ in nghiêng - Italic](#3-chữ-in-nghiêng---italic)
+  - [1.4. Chữ in đậm - Bold](#4-chữ-in-đậm---bold)
+  - [1.5. In đậm và in nghiêng](#5-in-đậm-và-in-nghiêng)
+  - [1.6. Chữ gạch giữa - Strikethrough](#6-chữ-gạch-giữa---strikethrough)
+  - [1.7. Code trong dòng - Inline Code](#7-code-trong-dòng---inline-code)
 - [2. Các khối](#2-các-khối)
-  - [1. Trích dẫn - Blockquote](#1-trích-dẫn---blockquote)
-  - [2. Danh sách có thứ tự - Ordered List](#2-danh-sách-có-thứ-tự---ordered-list)
-  - [3. Danh sách không có thứ tự - Unordered List](#3-danh-sách-không-có-thứ-tự---unordered-list)
-  - [4. Khối lệnh - Block Code](#4-khối-lệnh---block-code)
-  - [5. Bảng - Table](#5-bảng---table)
+  - [2.1. Trích dẫn - Blockquote](#1-trích-dẫn---blockquote)
+  - [2.2. Danh sách có thứ tự - Ordered List](#2-danh-sách-có-thứ-tự---ordered-list)
+  - [2.3. Danh sách không có thứ tự - Unordered List](#3-danh-sách-không-có-thứ-tự---unordered-list)
+  - [2.4. Khối lệnh - Block Code](#4-khối-lệnh---block-code)
+  - [2.5. Bảng - Table](#5-bảng---table)
 - [3. Đặc biệt](#3-đặc-biệt)
-  - [1. Đường kẻ ngang - Horizonal rules](#1-đường-kẻ-ngang---horizonal-rules)
-  - [2. Liên kết - Link](#2-liên-kết---link)
-  - [3. Hình ảnh - Image](#3-hình-ảnh---image)
-  - [4. Biểu tượng cảm xúc - Icon](#4-biểu-tượng-cảm-xúc---icon)
-  - [5. Checkbox](#5-checkbox)
-  - [6. Escape markdown](#6-escape-markdown)
-
+  - [3.1. Đường kẻ ngang - Horizonal rules](#1-đường-kẻ-ngang---horizonal-rules)
+  - [3.2. Liên kết - Link](#2-liên-kết---link)
+  - [3.3. Hình ảnh - Image](#3-hình-ảnh---image)
+  - [3.4. Biểu tượng cảm xúc - Icon](#4-biểu-tượng-cảm-xúc---icon)
+  - [3.5. Checkbox](#5-checkbox)
+  - [3.6. Escape markdown](#6-escape-markdown)
+- [4. Các công thức toán học theo cú pháp LaTeX](#4-các-công-thức-toán-học-theo-cú-pháp-latex)
+  - [4.1. Lũy thừa](#1-lũy-thừa)
+  - [4.2. Chỉ số dưới](#2-chỉ-số-dưới)
+  - [4.3. Nhiều chỉ số dưới](#3-nhiều-chỉ-số-dưới)
+  - [4.4. Nhiều chỉ số trên](#4-nhiều-chỉ-số-trên)
+  - [4.5. Phân số](#5-phân-số)
+  - [4.6. Căn bậc 2](#6-căn-bậc-2)
+  - [4.7. Tổng sigma](#7-tổng-sigma)
+  - [4.8. Tích phân](#8-tích-phân)
+  - [4.9. Giới hạn](#9-giới-hạn)
+  - [4.10. Suy ra](#10-suy-ra)
+  - [4.11. Hai chiều](#11-hai-chiều)
+    
 
 
 
@@ -32,7 +44,7 @@
 
 ## 1. Văn bản thuần
 
-### 1 Tiêu đề - Heading
+### 1. Tiêu đề - Heading
 
 Bạn có thể viết loại tiêu đề `<h1>, <h2>,... <h6>` bằng cách thêm các dấu # tương ứng vào đầu dòng.
 
@@ -327,3 +339,81 @@ Kết quả:
 
 \*\*\*ba dấu sao hai bên\*\*\*
 
+# 4. Các công thức toán học theo cú pháp LaTeX
+### 1. Lũy thừa
+Cú pháp:
+```
+$x^2$
+```
+Kết quả:
+$x^2$
+### 2. Chỉ số dưới
+Cú pháp:
+```
+$x_i$
+```
+Kết quả:
+$x_i$
+### 3. Nhiều chỉ số dưới
+Cú pháp:
+```
+$x_{i+1}$
+```
+Kết quả:
+$x_{i+1}$
+### 4. Nhiều chỉ số trên
+Cú pháp:
+```
+$x^{n+1}$
+```
+Kết quả:
+$x^{n+1}$
+### 5. Phân số
+Cú pháp:
+```
+$\frac{a}{b}$	
+```
+Kết quả:
+$\frac{a}{b}$	
+### 6. Căn bậc 2
+Cú pháp:
+```
+$\sqrt{x}$	
+```
+Kết quả:
+$x^2$
+### 7. Tổng sigma
+Cú pháp:
+```
+$\sum_{i=1}^n i$
+```
+Kết quả:
+$\sum_{i=1}^n i$
+### 8. Tích phân
+Cú pháp:
+```
+$\int_0^1 x dx$
+```
+Kết quả:
+$\int_0^1 x dx$
+### 9. Giới hạn
+Cú pháp:
+```
+$\lim_{x \to 0} \frac{\sin x}{x}$
+```
+Kết quả:
+$\lim_{x \to 0} \frac{\sin x}{x}$
+### 10. Suy ra
+Cú pháp:
+```
+$\Rightarrow$	
+```
+Kết quả:
+$\Rightarrow$	
+### 11. Hai chiều
+Cú pháp:
+```
+\leftrightarrow
+```
+Kết quả:
+$\leftrightarrow$
